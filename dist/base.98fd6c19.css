@@ -8,20 +8,20 @@
     font-family: 'WriteHandW01-Regular';
     font-weight: normal;
     font-style: normal;
-    src: url(/WriteHandW01-Regular.022c6d4a.eot);
-    src: url(/WriteHandW01-Regular.87dc34d0.svg);
-    src: url(/WriteHandW01-Regular.6e049fdf.ttf);
-    src: url(/WriteHandW01-Regular.8abcdfc2.woff);
-    src: url(/WriteHandW01-Regular.9fa84ef0.woff2);
+    src: url(WriteHandW01-Regular.022c6d4a.eot);
+    src: url(WriteHandW01-Regular.87dc34d0.svg);
+    src: url(WriteHandW01-Regular.6e049fdf.ttf);
+    src: url(WriteHandW01-Regular.8abcdfc2.woff);
+    src: url(WriteHandW01-Regular.9fa84ef0.woff2);
     
     font-family: 'FrutigerLT-Bold';
     font-weight: normal;
     font-style: normal;
-    src: url(/FrutigerLT-Bold.96d1a702.eot);
-    src: url(/FrutigerLT-Bold.f730a757.svg);
-    src: url(/FrutigerLT-Bold.2f610c3b.ttf);
-    src: url(/FrutigerLT-Bold.03ba74a7.woff);
-    src: url(/FrutigerLT-Bold.27374b5e.woff2);
+    src: url(FrutigerLT-Bold.96d1a702.eot);
+    src: url(FrutigerLT-Bold.f730a757.svg);
+    src: url(FrutigerLT-Bold.2f610c3b.ttf);
+    src: url(FrutigerLT-Bold.03ba74a7.woff);
+    src: url(FrutigerLT-Bold.27374b5e.woff2);
 }
 
 
@@ -616,6 +616,3 @@ html.has-scroll-dragging {
 		--tiles-height: 240px;
 	}
 }
-
-
-/*# sourceMappingURL=/base.98fd6c19.css.map */
