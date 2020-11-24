@@ -4,24 +4,29 @@
 	box-sizing: border-box;
 }
 
-@font-face{
-    font-family: 'WriteHandW01-Regular';
+@font-face {
+    font-family: 'WriteHandW01';
+    src: url('/WriteHandW01-Regular.38eb9add.eot');
+    src: url('/WriteHandW01-Regular.38eb9add.eot?#iefix') format('embedded-opentype'),
+        url('/WriteHandW01-Regular.aa01274b.woff2') format('woff2'),
+        url('/WriteHandW01-Regular.b1c8a519.woff') format('woff'),
+        url('/WriteHandW01-Regular.97a81539.svg#WriteHandW01-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
-    src: url(WriteHandW01-Regular.022c6d4a.eot);
-    src: url(WriteHandW01-Regular.87dc34d0.svg);
-    src: url(WriteHandW01-Regular.6e049fdf.ttf);
-    src: url(WriteHandW01-Regular.8abcdfc2.woff);
-    src: url(WriteHandW01-Regular.9fa84ef0.woff2);
+    font-display: swap;
+}
+
     
-    font-family: 'FrutigerLT-Bold';
-    font-weight: normal;
+ @font-face {
+    font-family: 'Frutiger LT 45';
+    src: url('/FrutigerLT-Bold.68c955ff.eot');
+    src: url('/FrutigerLT-Bold.68c955ff.eot?#iefix') format('embedded-opentype'),
+        url('/FrutigerLT-Bold.d79e867d.woff2') format('woff2'),
+        url('/FrutigerLT-Bold.28d5183f.woff') format('woff'),
+        url('/FrutigerLT-Bold.69e568f0.svg#FrutigerLT-Bold') format('svg');
+    font-weight: bold;
     font-style: normal;
-    src: url(FrutigerLT-Bold.96d1a702.eot);
-    src: url(FrutigerLT-Bold.f730a757.svg);
-    src: url(FrutigerLT-Bold.2f610c3b.ttf);
-    src: url(FrutigerLT-Bold.03ba74a7.woff);
-    src: url(FrutigerLT-Bold.27374b5e.woff2);
+    font-display: swap;
 }
 
 
@@ -41,7 +46,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	counter-reset: contentSection;
-    font-family: 'FrutigerLT-Bold';
+    font-family: 'Frutiger LT 45';
     font-weight: normal;
     font-style: normal;
 
@@ -197,7 +202,7 @@ main {
 }
 
 .content__pretitle {
-	font-family: 'WriteHandW01-Regular';
+	font-family: 'WriteHandW01';
     font-weight: normal;
     font-style: normal;
 	margin-top: auto;
@@ -238,7 +243,7 @@ main {
 	margin: 0 -3rem;
 	white-space: nowrap;
 
-    font-family: 'WriteHandW01-Regular';
+    font-family: 'WriteHandW01';
     font-weight: normal;
     font-style: normal;
 	font-weight: 200;
@@ -456,7 +461,7 @@ main {
 	padding: 3rem;
 	margin: 0;
 	line-height: 0.8;
-    font-family: 'FrutigerLT-Bold';
+    font-family: 'Frutiger LT 45';
     font-weight: normal;
     font-style: normal;
 	font-weight: 700;
@@ -616,3 +621,6 @@ html.has-scroll-dragging {
 		--tiles-height: 240px;
 	}
 }
+
+
+/*# sourceMappingURL=/base.98fd6c19.css.map */
